@@ -1,0 +1,142 @@
+{
+	"id": "cd02686e-8f10-1c7f-d5d9-0f18938f7528",
+	"name": "testMark",
+	"description": "",
+	"order": [
+		"61953f40-ddbb-da57-961d-6d6d1ae943c0",
+		"960e3e79-d5f0-99de-41ec-4ffd1ddad3ad",
+		"8d7cfc5f-3593-70d5-a540-f0baee3fa430",
+		"3053e0fe-3552-a32e-03ab-8e0cbf113017"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1502271875650,
+	"owner": "2319367",
+	"public": false,
+	"requests": [
+		{
+			"id": "3053e0fe-3552-a32e-03ab-8e0cbf113017",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:1746/api/product/PutProduct/?id=1",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "cd02686e-8f10-1c7f-d5d9-0f18938f7528",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:1746/api/product/PutProduct/?id=1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1502274692502,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "61953f40-ddbb-da57-961d-6d6d1ae943c0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1746/api/product/PostProduct",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "cd02686e-8f10-1c7f-d5d9-0f18938f7528",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:1746/api/product/PostProduct",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1502274669630,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"artno\": \"0000000000002\",\r\n    \"shorttext\": \"95 Unleaded\",\r\n    \"price\": 1.079 \r\n} "
+		},
+		{
+			"id": "8d7cfc5f-3593-70d5-a540-f0baee3fa430",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1746/api/product/PutProduct/?id=1",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "cd02686e-8f10-1c7f-d5d9-0f18938f7528",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:1746/api/product/PutProduct/?id=1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1502274686930,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"artNo\": 3,\n    \"shortText\": \"95 Unleaded\",\n    \"price\": 1.079\n}"
+		},
+		{
+			"id": "960e3e79-d5f0-99de-41ec-4ffd1ddad3ad",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:1746/api/product/PostProduct",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "cd02686e-8f10-1c7f-d5d9-0f18938f7528",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:1746/api/product/PostProduct",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1502274677153,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
